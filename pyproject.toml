@@ -1,0 +1,38 @@
+[project]
+name = "xlplaintext"
+version = "0.0.1"
+description = "Convert an XLSX workbook to plain text using Excel's `xlTextPrinter` save format."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name = "Eric J. Whitney", email = "eric.j.whitney@gmail.com" }
+]
+keywords = ["excel", "xlsx", "text", "conversion", "windows", "com"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Text Processing :: Conversion",
+    "Topic :: Utilities"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pywin32>=306"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/xlplaintext"
+Repository = "https://github.com/yourusername/xlplaintext"
+Issues = "https://github.com/yourusername/xlplaintext/issues"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
